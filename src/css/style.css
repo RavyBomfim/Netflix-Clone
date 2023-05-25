@@ -42,7 +42,7 @@ header .logo a {
     color: #000000;
 }
 
-.secao-inicial {
+#secao-inicial {
     display: flex;
     align-items: center;
     width: 100%;
