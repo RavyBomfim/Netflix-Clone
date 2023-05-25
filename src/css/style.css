@@ -158,8 +158,12 @@ header .logo a {
         width: 400px;
     }
 
+    .secoes {
+        height: 450px;
+    }
+
     .secoes p {
-        margin-inline: 20;
+        margin-inline: 20px;
     }
 
 }
@@ -183,11 +187,12 @@ header .logo a {
 @media (max-width: 499px) {
 
     header {
-        padding-inline: 40px;
+        padding-inline: 20px;
     }
 
     .informar-email {
         margin-top: 70px;
+        padding-inline: 20px;
     }
 
     .informar-email form {
@@ -221,7 +226,18 @@ header .logo a {
     }
 
     #email, #enviar {
-        width: 200px;
+        width: 250px;
     }
 
 }
+
+
+@media (max-width: 300px) {
+
+    #email, #enviar {
+        width: 180px;
+    }
+
+}
+
+
