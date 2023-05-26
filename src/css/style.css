@@ -135,10 +135,22 @@ header .logo a {
 
 /* ----------------- Responsividade ----------------- */
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) and (min-height: 1000px) and (min-width: 750px) {
+
+    #secao-inicial {
+        max-height: 60vh;
+    }
+
+}
+
+@media (max-width: 700px) {
     
     header {
         padding-inline: 70px;
+    }
+
+    #secao-inicial {
+        max-height: 65vh;
     }
 
 }
@@ -147,11 +159,7 @@ header .logo a {
     
     header {
         flex-direction: column;
-        gap: 15px;
-    }
-
-    .informar-email {
-        margin-top: 150px;
+        gap: 20px;
     }
 
     .secoes img {
@@ -183,11 +191,10 @@ header .logo a {
 @media (max-width: 499px) {
 
     header {
-        padding-inline: 20px;
+        padding-inline: 25px;
     }
 
     .informar-email {
-        margin-top: 70px;
         padding-inline: 20px;
     }
 
@@ -209,10 +216,14 @@ header .logo a {
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
 
     header {
-        padding-inline: 12px;
+        padding-inline: 15px;
+    }
+
+    .informar-email {
+       margin-top: 150px;
     }
 
     .menu {
@@ -224,6 +235,17 @@ header .logo a {
         width: 250px;
     }
 
+}
+
+@media (max-width: 380px) {
+
+    #secao-inicial {
+        max-height: 80vh;
+    }
+
+    .informar-email {
+        margin-top: 100px;
+     }
 }
 
 @media (max-width: 300px) {
